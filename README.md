@@ -13,6 +13,8 @@ pip install -r requirements.txt
 ```
 
 # Usage
-The files "(model_name)_deformation_dirichlet.py" and "(model_name)_phase_diagram_multiprocessing.py" are the main files, where model_name can be ssh, tb, or qwz.
+The main files are "(model_name)_deformation_dirichlet.py" and "(model_name)_phase_diagram_multiprocessing.py", where model_name can be ssh, tb, or qwz.
+
 Running "(model_name)_deformation_dirichlet.py" will produce the persistence diagrams and the embeddings of the wavefunctions in Euclidean space before the deformation and after the deformation, in both the topologically trivial phase and the topologically nontrivial phase.
+
 Running "(model_name)_phase_diagram_multiprocessing.py" will  produce the phase diagram for the model.
