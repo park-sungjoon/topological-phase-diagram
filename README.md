@@ -18,3 +18,5 @@ The main files are "(model_name)_deformation_dirichlet.py" and "(model_name)_pha
 Running "(model_name)_deformation_dirichlet.py" will produce the persistence diagrams and the embeddings of the wavefunctions in Euclidean space before the deformation and after the deformation, in both the topologically trivial phase and the topologically nontrivial phase.
 
 Running "(model_name)_phase_diagram_multiprocessing.py" will  produce the phase diagram for the model.
+This uses multiprocessing module. 
+You can set the number of processes by changing the variable num_processes
